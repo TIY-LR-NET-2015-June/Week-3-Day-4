@@ -9,7 +9,9 @@ Count the number of appearances for each word in the gettysburg.txt speech. It s
 pizza: 20
 dude: 15
 perish: 10
-...c#
+```
+
+```c#
 Regex.Split(someText, @"\W+") 
 
 var excluded_words = new []{ "that", "the", "to", "a", "and", "can", "of", "here", "have", "it", "in", "is", "not" };
